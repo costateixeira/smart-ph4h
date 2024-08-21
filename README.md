@@ -7,9 +7,8 @@
 ![QA hints](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fworldhealthorganization.github.io%2Fsmart-ig-empty%2Fqa.json&query=%24.hints&logoColor=yellow&label=QA%20hints&color=yellow)
 
 
-# WHO SMART GUIDELINES - EMPTY IG
+# WHO SMART GUIDELINES - PH4H
 
-This is an empty framework, to be used to create SMART Implementation Guides.
 
 This framework is published under a Creative Commons - IGO [license](LICENSE.md).
 
