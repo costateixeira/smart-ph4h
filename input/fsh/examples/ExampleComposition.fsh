@@ -7,7 +7,7 @@ Usage: #example
 * identifier.value = "3f69e0a5-2177-4540-baab-7a5d0877428f"
 * status = #final
 * type = $loinc#60591-5 "Patient summary Document"
-* subject = Reference(eumfh-39-07-of-Patient) //2b90dd2b-2dab-4c75-9bb9-a355e07401e7)
+* subject = Reference(2b90dd2b-2dab-4c75-9bb9-a355e07401e7)
 * date = "2017-12-11T14:30:00+01:00"
 * author = Reference(1c616b24-3895-48c4-9a02-9a64110351ee)
 * title = "Patient Summary as of December 11, 2017 14:30"
@@ -16,7 +16,7 @@ Usage: #example
 * confidentiality = #N
 * attester[0].mode = #legal
 * attester[=].time = "2017-12-11T14:30:00+01:00"
-* attester[=].party = Reference(simple-org) //1c616b24-3895-48c4-9a02-9a64110351ee)
+* attester[=].party = Reference(1c616b24-3895-48c4-9a02-9a64110351ee)
 * attester[+].mode = #legal
 * attester[=].time = "2017-12-11T14:30:00+01:00"
 * attester[=].party = Reference(Practitioner/eumfh-39-07) //890751f4-2924-4636-bab7-efffc7f3cf14)
@@ -64,7 +64,7 @@ Usage: #example
 * section[sectionAdvanceDirectives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consent MYS for pilgrimage</div>"
 * section[sectionAdvanceDirectives].entry = Reference(c7781f44-6df8-4a8b-9e06-0b34263a47c6)
 
-/*
+
 Instance: Martha
 InstanceOf: Patient
 Usage: #example
@@ -93,7 +93,7 @@ Usage: #example
 * contact.address.city = "Lyon"
 * contact.address.postalCode = "69001"
 * contact.address.country = "FR"
-*/
+
 Instance: 1c616b24-3895-48c4-9a02-9a64110351ee
 InstanceOf: Practitioner
 Usage: #example
