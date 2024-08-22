@@ -16,9 +16,9 @@ publisher:
   # email: test@example.org
 
 
-meta:
-  profile:
-    - SMARTImplementationGuide
+#meta:
+ # profile:
+  #  - SMARTImplementationGuide
 
 pages:
   index.md:
