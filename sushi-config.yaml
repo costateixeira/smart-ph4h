@@ -1,7 +1,7 @@
 id: smart.who.int.ph4h
 canonical: http://worldhealthorganization.github.io/smart
-name: SMART
-title: SMART Empty IG
+name: PH4H
+title: SMART PH4H
 description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
 status: draft # draft | active | retired | unknown
 version: 0.1.0
