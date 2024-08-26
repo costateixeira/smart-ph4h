@@ -62,7 +62,7 @@ Usage: #example
 * section[sectionAdvanceDirectives].code = $loinc#42348-3
 * section[sectionAdvanceDirectives].text.status = #generated
 * section[sectionAdvanceDirectives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consent MYS for pilgrimage</div>"
-* section[sectionAdvanceDirectives].entry = Reference(c7781f44-6df8-4a8b-9e06-0b34263a47c6)
+* section[sectionAdvanceDirectives].entry[advanceDirectivesConsent][SmartConsent] = Reference(c7781f44-6df8-4a8b-9e06-0b34263a47c6)
 
 
 Instance: Martha
