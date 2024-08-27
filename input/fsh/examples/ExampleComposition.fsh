@@ -19,7 +19,7 @@ Usage: #example
 * attester[=].party = Reference(1c616b24-3895-48c4-9a02-9a64110351ee)
 * attester[+].mode = #legal
 * attester[=].time = "2017-12-11T14:30:00+01:00"
-* attester[=].party = Reference(Practitioner/eumfh-39-07) //890751f4-2924-4636-bab7-efffc7f3cf14)
+* attester[=].party = Reference(890751f4-2924-4636-bab7-efffc7f3cf14)
 * custodian = Reference(890751f4-2924-4636-bab7-efffc7f3cf14)
 * relatesTo.code = #appends
 * relatesTo.targetIdentifier.system = "urn:oid:2.16.724.4.8.10.200.10"
@@ -62,7 +62,7 @@ Usage: #example
 * section[sectionAdvanceDirectives].code = $loinc#42348-3
 * section[sectionAdvanceDirectives].text.status = #generated
 * section[sectionAdvanceDirectives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consent MYS for pilgrimage</div>"
-* section[sectionAdvanceDirectives].entry[advanceDirectivesConsent][SmartConsent] = Reference(c7781f44-6df8-4a8b-9e06-0b34263a47c6)
+* section[sectionAdvanceDirectives].entry[0] = Reference(c7781f44-6df8-4a8b-9e06-0b34263a47c6)
 
 
 Instance: Martha
