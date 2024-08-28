@@ -71,7 +71,7 @@ Usage: #example
 * entry[=].resource = c7781f44-6df8-4a8b-9e06-0b34263a47c7
 
 Instance: 30551ce1-5a28-4356-b684-1e639094ad4d
-InstanceOf: Composition
+InstanceOf: SmartIPS-Composition
 Title : " IPS Composition"
 Description: " IPS Composition Example"
 Usage: #inline
@@ -98,43 +98,43 @@ Usage: #inline
 * relatesTo.targetIdentifier.value = "c2277753-9f90-4a95-8ddb-a0b3f6e7d292"
 * event.code = $v3-ActClass#PCPR
 * event.period.end = "2017-12-11T14:30:00+01:00"
-* section[0].title = "Active Problems"
-* section[=].code = $loinc#11450-4 "Problem list - Reported"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hot flushes</div>"
-* section[=].entry = Reference(urn:uuid:c64139e7-f02d-409c-bf34-75e8bf23bc80)
-* section[+].title = "Medication"
-* section[=].code = $loinc#10160-0 "History of Medication use Narrative"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Medication</th><th>Strength</th><th>Form</th><th>Dosage</th><th>Comment</th></tr></thead><tbody><tr><td>Anastrozole</td><td>1 mg</td><td>tablet</td><td>once daily</td><td>treatment for breast cancer</td></tr><tr><td>Black Cohosh Extract</td><td></td><td>pil</td><td></td><td>herbal supplement</td></tr></tbody></table></div>"
-* section[=].entry[0] = Reference(urn:uuid:c220e36c-eb67-4fc4-9ba1-2fabc52acec6)
-* section[=].entry[+] = Reference(urn:uuid:47524493-846a-4a26-bae2-4ab03e60f02e)
-* section[+].title = "Allergies and Intolerances"
-* section[=].code = $loinc#48765-2 "Allergies and adverse reactions Document"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergy to penicillin, high criticality</div>"
-* section[=].entry[0] = Reference(urn:uuid:72884cad-ebe6-4f43-a51a-2f978275f132)
-* section[+].title = "History of Past Illness"
-* section[=].code = $loinc#11348-0 "History of Past illness Narrative"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Breast cancer Stage II with no evidence of recurrence following treatment</div>"
-* section[=].entry = Reference(urn:uuid:c4597aa2-688a-401b-a658-70acc6de28c6)
-* section[+].title = "Plan of Treatment"
-* section[=].code = $loinc#18776-5 "Plan of care note"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Continue hormone medication with Anastrozole for total of 5 years and monitor for potential breast cancer recurrence</div>"
-* section[+].title = "Results"
-* section[=].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th colspan=\"3\">Blood typing</th></tr></thead><tbody><tr><td>Blood group</td><td>A+</td><td/></tr><tr><td>C Ab [Presence] in Serum or Plasma</td><td>Positive</td><td/></tr><tr><td>E Ab [Presence] in Serum or Plasma</td><td>Positive</td><td/></tr><tr><td>Little c Ab [Presence] in Serum or Plasma</td><td>Negative</td><td/></tr></tbody></table><table><thead><tr><th colspan=\"3\">Hemoglobin A1c monitoring</th></tr></thead><tbody><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood by HPLC</td><td>7.5 %</td><td/></tr></tbody></table><table><thead><tr><th colspan=\"3\">Bacteriology</th></tr></thead><tbody><tr><td colspan=\"3\">Methicillin resistant Staphylococcus aureus</td></tr><tr><td colspan=\"3\">Healthy carrier of MRSA</td></tr></tbody></table></div>"
-* section[=].entry[0] = Reference(urn:uuid:2639657a-c19a-48e2-82cc-471e13b8ad94)
-* section[=].entry[+] = Reference(urn:uuid:cc354e00-a419-47ea-8b6c-1768b2a01646)
-* section[=].entry[+] = Reference(urn:uuid:26bee0a9-5997-4557-ab9d-c6adbb05b572)
-* section[+].title = "Advance Directives"
-* section[=].code = $loinc#42348-3
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consent MYS for pilgrimage</div>"
-* section[=].entry = Reference(urn:uuid:c7781f44-6df8-4a8b-9e06-0b34263a47c7)
+* section[sectionProblems].title = "Active Problems"
+* section[sectionProblems].code = $loinc#11450-4 "Problem list - Reported"
+* section[sectionProblems].text.status = #generated
+* section[sectionProblems].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hot flushes</div>"
+* section[sectionProblems].entry = Reference(urn:uuid:c64139e7-f02d-409c-bf34-75e8bf23bc80)
+* section[sectionMedications].title = "Medication"
+* section[sectionMedications].code = $loinc#10160-0 "History of Medication use Narrative"
+* section[sectionMedications].text.status = #generated
+* section[sectionMedications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Medication</th><th>Strength</th><th>Form</th><th>Dosage</th><th>Comment</th></tr></thead><tbody><tr><td>Anastrozole</td><td>1 mg</td><td>tablet</td><td>once daily</td><td>treatment for breast cancer</td></tr><tr><td>Black Cohosh Extract</td><td></td><td>pil</td><td></td><td>herbal supplement</td></tr></tbody></table></div>"
+* section[sectionMedications].entry[0] = Reference(urn:uuid:c220e36c-eb67-4fc4-9ba1-2fabc52acec6)
+* section[sectionMedications].entry[+] = Reference(urn:uuid:47524493-846a-4a26-bae2-4ab03e60f02e)
+* section[sectionAllergies].title = "Allergies and Intolerances"
+* section[sectionAllergies].code = $loinc#48765-2 "Allergies and adverse reactions Document"
+* section[sectionAllergies].text.status = #generated
+* section[sectionAllergies].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergy to penicillin, high criticality</div>"
+* section[sectionAllergies].entry[0] = Reference(urn:uuid:72884cad-ebe6-4f43-a51a-2f978275f132)
+* section[sectionPastIllnessHx].title = "History of Past Illness"
+* section[sectionPastIllnessHx].code = $loinc#11348-0 "History of Past illness Narrative"
+* section[sectionPastIllnessHx].text.status = #generated
+* section[sectionPastIllnessHx].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Breast cancer Stage II with no evidence of recurrence following treatment</div>"
+* section[sectionPastIllnessHx].entry = Reference(urn:uuid:c4597aa2-688a-401b-a658-70acc6de28c6)
+* section[sectionPlanOfCare].title = "Plan of Treatment"
+* section[sectionPlanOfCare].code = $loinc#18776-5 "Plan of care note"
+* section[sectionPlanOfCare].text.status = #generated
+* section[sectionPlanOfCare].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Continue hormone medication with Anastrozole for total of 5 years and monitor for potential breast cancer recurrence</div>"
+* section[sectionResults].title = "Results"
+* section[sectionResults].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
+* section[sectionResults].text.status = #generated
+* section[sectionResults].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th colspan=\"3\">Blood typing</th></tr></thead><tbody><tr><td>Blood group</td><td>A+</td><td/></tr><tr><td>C Ab [Presence] in Serum or Plasma</td><td>Positive</td><td/></tr><tr><td>E Ab [Presence] in Serum or Plasma</td><td>Positive</td><td/></tr><tr><td>Little c Ab [Presence] in Serum or Plasma</td><td>Negative</td><td/></tr></tbody></table><table><thead><tr><th colspan=\"3\">Hemoglobin A1c monitoring</th></tr></thead><tbody><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood by HPLC</td><td>7.5 %</td><td/></tr></tbody></table><table><thead><tr><th colspan=\"3\">Bacteriology</th></tr></thead><tbody><tr><td colspan=\"3\">Methicillin resistant Staphylococcus aureus</td></tr><tr><td colspan=\"3\">Healthy carrier of MRSA</td></tr></tbody></table></div>"
+* section[sectionResults].entry[0] = Reference(urn:uuid:2639657a-c19a-48e2-82cc-471e13b8ad94)
+* section[sectionResults].entry[+] = Reference(urn:uuid:cc354e00-a419-47ea-8b6c-1768b2a01646)
+* section[sectionResults].entry[+] = Reference(urn:uuid:26bee0a9-5997-4557-ab9d-c6adbb05b572)
+* section[sectionAdvanceDirectives].title = "Advance Directives"
+* section[sectionAdvanceDirectives].code = $loinc#42348-3
+* section[sectionAdvanceDirectives].text.status = #generated
+* section[sectionAdvanceDirectives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consent MYS for pilgrimage</div>"
+* section[sectionAdvanceDirectives].entry = Reference(urn:uuid:c7781f44-6df8-4a8b-9e06-0b34263a47c7)
 
 
 Instance: 2b90dd2b-2dab-4c75-9bb9-a355e07401e8
