@@ -393,6 +393,7 @@ Usage: #inline
 * status = #active
 * scope = $consentscope#patient-privacy
 * provision.purpose.code = #COC
+* provision.purpose.system = "http://terminology.hl7.org/CodeSystem/v3-ActReason"
 * provision.type = #permit
 * patient.display = "patient1"
 * dateTime = "2016-05-11"
