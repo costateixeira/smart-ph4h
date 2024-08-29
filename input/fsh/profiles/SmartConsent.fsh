@@ -1,5 +1,6 @@
 Profile: SmartConsent
 Parent: IntermediateConsent
+Title : "SMART Consent"
 Description: "A profile of the consent resource to track consent of a pilgrim to participate
 
 FHIR R5 upgrade notes (need this implemented as a structure map):

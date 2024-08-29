@@ -1,7 +1,7 @@
 Profile: SmartIPSComposition
 Parent: CompositionUvIps
 Title: "SMART Composition (IPS)"
-Description: "Clinical document used to represent the International Patient Summary (IPS) data set for SMART Guidelines" 
+Description: "This profile represents the constraints applied to the Composition resource by the International Patient Summary (IPS) for use within the SMART Guidelines" 
 
 * section[sectionAdvanceDirectives] 1..1
 * section[sectionAdvanceDirectives].entry obeys containsSmartConsent-cmp2

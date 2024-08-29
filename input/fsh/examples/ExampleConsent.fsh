@@ -22,12 +22,8 @@ Usage: #example
 
 Instance: ex-documentreference1
 InstanceOf: DocumentReference
-Title: "DocumentReference Consent Paperwork example"
-Description: """
-DocumentReference example of the paperwork of the Consent
-
-This is showing an example of a document that is purely text.
-"""
+Title: "Example DocumentReference Consent Paperwork"
+Description: "Example copied from FHIR-IPS used for Composition"
 Usage: #example
 * meta.security = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST
 * status = #current
