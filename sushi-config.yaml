@@ -79,6 +79,8 @@ pages:
       title: Test Data
     reference-implementations.md: 
       title: Reference Implementations
+    trust_domain.md:
+      title: Trust Domains
     downloads.md: 
       title: Downloads
   indices.md:
@@ -117,6 +119,7 @@ menu:
     Security and Privacy Considerations: security-privacy.html
     Testing: testing.html
     Test Data: test-data.html
+    Trust Domains: trust_domain.html
     Reference Implementations: reference-implementations.html
     Downloads: downloads.html
 
