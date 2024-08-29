@@ -1,5 +1,7 @@
 Instance: ExampleConsent
 InstanceOf: SmartConsent
+Title: "Example SMART Consent"
+Description: "Example SMART Consent"
 Usage: #example
 * id = "c7781f44-6df8-4a8b-9e06-0b34263a47c6"
 * status = #active
@@ -14,6 +16,7 @@ Usage: #example
 * provision.period.start = "1964-01-01"
 * provision.period.end = "2016-01-01"
 * category.coding.code = #acd
+* category.coding.system = "http://terminology.hl7.org/CodeSystem/consentcategorycodes"
 * performer.display = "Org1"
 * sourceReference = Reference(DocumentReference/ex-documentreference1)
 

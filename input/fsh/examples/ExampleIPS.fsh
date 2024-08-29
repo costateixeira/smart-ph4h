@@ -402,6 +402,7 @@ Usage: #inline
 * provision.period.start = "1964-01-01"
 * provision.period.end = "2016-01-01"
 * category.coding.code = #acd
+* category.coding.system = "http://terminology.hl7.org/CodeSystem/consentcategorycodes"
 * performer.display = "Org1"
 * sourceReference = Reference(DocumentReference/ex-documentreference)
 
