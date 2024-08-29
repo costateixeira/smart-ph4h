@@ -71,7 +71,7 @@ Usage: #example
 * entry[=].resource = c7781f44-6df8-4a8b-9e06-0b34263a47c7
 
 Instance: 30551ce1-5a28-4356-b684-1e639094ad4d
-InstanceOf: SmartIPS-Composition
+InstanceOf: SmartIPSComposition
 Title : " IPS Composition"
 Description: " IPS Composition Example"
 Usage: #inline

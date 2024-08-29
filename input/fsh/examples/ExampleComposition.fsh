@@ -1,5 +1,5 @@
 Instance: ExampleComposition
-InstanceOf: SmartIPS-Composition
+InstanceOf: SmartIPSComposition
 Title : "Example SMART IPS Composition"
 Description: "SMART IPS Composition Example"
 Usage: #example

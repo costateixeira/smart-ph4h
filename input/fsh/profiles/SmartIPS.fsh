@@ -28,12 +28,5 @@ Description: "This profile represents the constraints applied to the Bundle reso
 * entry[consent][SmartConsent].resource only SmartConsent */
 
 
-Invariant: containsSmartConsent
-Description: "At least one consent must be SmartConsent"
-Severity: #error
-Expression: "where(meta.profile='http://smart.who.int/ph4h/StructureDefinition/SmartConsent').exists()"
 
-Invariant: containsSmartConsent-cmp
-Description: "At least one consent in the Advanced Directives section must be SmartConsent"
-Severity: #error
-Expression: "section.where(title='Advance Directives').entry.resolve().where(meta.profile='http://smart.who.int/ph4h/StructureDefinition/SmartConsent').exists()"
+
