@@ -1,5 +1,5 @@
 Instance: ExampleConsent
-InstanceOf: Consent
+InstanceOf: SmartConsent
 Title: "Example SMART Consent"
 Description: "Example SMART Consent"
 Usage: #example
