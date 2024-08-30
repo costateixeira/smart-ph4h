@@ -72,8 +72,8 @@ Usage: #example
 
 Instance: 30551ce1-5a28-4356-b684-1e639094ad4d
 InstanceOf: SmartIPSComposition
-Title : " IPS Composition"
-Description: " IPS Composition Example"
+Title : "IPS Composition"
+Description: "IPS Composition Example"
 Usage: #inline
 * identifier.system = "urn:oid:2.16.724.4.8.10.200.10"
 * identifier.value = "3f69e0a5-2177-4540-baab-7a5d0877428f"
@@ -388,7 +388,7 @@ Usage: #inline
 
 
 Instance: c7781f44-6df8-4a8b-9e06-0b34263a47c7
-InstanceOf: SmartConsent
+InstanceOf: Consent
 Usage: #inline
 * status = #active
 * scope = $consentscope#patient-privacy

@@ -15,6 +15,7 @@ FHIR R5 upgrade notes (need this implemented as a structure map):
 * provision.purpose 1..*
 //* provision.purpose from  IPS.HAJJ.CONSENT
 * provision.period 1..1 MS
+//* policy 1..1
 /*
 * patient 1..
 * organization only Reference(HajjOrganization)
