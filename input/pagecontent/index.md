@@ -1,15 +1,38 @@
-This WHO <mark>[insert health domain here]</mark> Implementation Guide details how to use Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) for consistent digital representation of <mark>[insert health domain here]</mark> services.
+This WHO PH4H Implementation Guide details how to use Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) for consistent digital representation of PH4H services.
 
 <div>
 <p> This implementation guide and set of artifacts are still undergoing development. </p>
-<p> Content is for demonstration purposes only. </p>
-</div>{:.stu-note}
+</div>
+<!--{:.stu-note}-->
 
+### About the PH4H 
 
-### Summary 
-This implementation guide includes a machine-readable representation of WHO guidelines for <mark>[insert health domain here]</mark>, as documented in the WHO Digital Adaptation Kit for <mark>[insert health domain here]</mark> (link forthcoming) and explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of <mark>[insert health domain here]</mark> use cases by WHO Member States.
+The Pan-American Digital Health Route (PH4H) is an initiative that aims to enable connected health for
+all people in Latin America and the Caribbean (LAC). Led by the Inter-American Development Bank [IDB](https://www.iadb.org/en),
+the Pan-American Health Organization [PAHO](https://www.paho.org/en) and the countries of the region, this initiative aims to
+facilitate the exchange of health data in a secure, efficient and interoperable manner, both within and
+between countries, allowing people in the region to share and access their health information. PH4H
+promotes regional synergies by maximizing national investments for the exchange of health information.
+In addition, PH4H facilitates continuous coordination with regional organizations and networks in digital
+health, thus strengthening integration and efficiency in the health sector.
 
-The guide is part of the [WHO SMART Guidelines approach](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines) to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology based on the WHO <mark>[insert health domain here]</mark> Digital Adaptation Kit (link forthcoming). 
+The main goal of PH4H is to deliver better health services to patients regardless of their location.
+The project seeks to improve the health care of those who temporarily move for work or other reasons. For
+migrants populations, it will enable sharing medical histories, which may improve their opportunities for better employment and
+education. In addition, the PH4H will strengthen public health surveillance,
+optimize access to limited human resources, and foster research and innovation, resulting in more
+efficient public health policies and improved regional economies. As a result, countries will be better
+prepared for future pandemics and other health threats. Cross-border use cases that can be
+implemented within PH4H are included in this repository.
+
+Unlike a physical route, a PH4H transcends borders, allowing universal access without leaving
+anyone behind. The initiative, which will be officially launched at the end of 2024, is supported by the Government of Japan's
+Fund for Quality Infrastructure, Disaster Resilience and Health. We look forward to more partners joining us on this transformative journey.
+
+### About this Implementation Guide
+This implementation guide includes a machine-readable representation of WHO guidelines for PH4H, as documented in the WHO Digital Adaptation Kit for PH4H (link forthcoming) and explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of PH4H use cases by WHO Member States.
+
+The guide is part of the [WHO SMART Guidelines approach](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines) to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology based on the WHO PH4H Digital Adaptation Kit (link forthcoming). 
 
 Supporting guidance, recommendations, resources, and standards are included in the <a href="references.html">References</a> and <a href="dependencies.html">Dependencies</a>.
 
@@ -21,7 +44,7 @@ This implementation guide is broken into the following levels of [knowledge repr
 - <a href="data-models-and-exchange.html">Data Models and Exchange</a> - contains the data models and data exchange protocols with actors and transactions defined.
 - <a href="deployment.html">Deployment Guidance </a> - contains relevant technical specifications and guidance, testing resources, reference implementation materials, and supporting guidance for adaptation to local contexts.
 
-This guide is prepared to facilitate digital implementation of WHO <mark>[insert health domain here]</mark> guidelines by providing FHIR-based computable representations of and implementation guidance for using the key components of the WHO <mark>[insert health domain here]</mark> digital adaptation kit (DAK):
+This guide is prepared to facilitate digital implementation of WHO PH4Hguidelines by providing FHIR-based computable representations of and implementation guidance for using the key components of the WHO PH4H digital adaptation kit (DAK):
 
 * Health Interventions & Recommendations
 * Generic Personas
