@@ -22,10 +22,10 @@ migrants populations, it will enable sharing medical histories, which may improv
 education. In addition, the PH4H will strengthen public health surveillance,
 optimize access to limited human resources, and foster research and innovation, resulting in more
 efficient public health policies and improved regional economies. As a result, countries will be better
-prepared for future pandemics and other health threats. Cross-border use cases that can be
-implemented within PH4H are included in this repository.
+prepared for future pandemics and other health threats. Multiple cross-border use cases that can be
+implemented within the PH4H will be included in this repository, countries can decide which specific use case they want. 
 
-Unlike a physical route, a PH4H transcends borders, allowing universal access without leaving
+A Governance Workign Group is currently being formed to steward the development and implementation of health services under the PH4H. Unlike a physical route, a PH4H transcends borders, allowing universal access without leaving
 anyone behind. The initiative, which will be officially launched at the end of 2024, is supported by the Government of Japan's
 Fund for Quality Infrastructure, Disaster Resilience and Health. We look forward to more partners joining us on this transformative journey.
 
