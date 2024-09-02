@@ -1,7 +1,10 @@
 Profile: SmartIPS
 Parent: BundleUvIps
 Title: "SMART Bundle (IPS)"
-Description: "This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) for use within the SMART Guidelines."
+Description: "This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) for use within the SMART Guidelines.
+
+Note: The profile expects atleast one SMART Consent entry to be present." 
+
 * entry MS
 * entry ^slicing.discriminator[0].type = #type
 * entry ^slicing.discriminator[=].path = "resource"
