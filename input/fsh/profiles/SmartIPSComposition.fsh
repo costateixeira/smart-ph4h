@@ -6,7 +6,6 @@ Description: "This profile represents the constraints applied to the Composition
 Note: The profile expects atleast one SMART Consent entry to be present within Advance Directives section" 
 
 * section[sectionAdvanceDirectives] 1..1
-* section[sectionAdvanceDirectives].entry obeys containsSmartConsent-cmp2
 //* section[sectionAdvanceDirectives].entry[advanceDirectivesConsent] ^slicing.discriminator[0].type = #profile
 //* section[sectionAdvanceDirectives].entry[advanceDirectivesConsent] ^slicing.discriminator[0].path = "resource"
 //* section[sectionAdvanceDirectives].entry[advanceDirectivesConsent] ^slicing.rules = #open
